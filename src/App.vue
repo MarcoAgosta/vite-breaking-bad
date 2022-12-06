@@ -12,8 +12,8 @@ export default{
 </script>
 
 <template>
-  <div class="general-background">
-    <div class="pt-1 ml-1 d-flex align-items-center">
+  <div class="general-background p-3">
+    <div class="d-flex align-items-center">
       <img class="logo m-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png" alt="Logo Breaking-Bad">
       <h1 class="white">Star Wars API</h1>
     </div>
@@ -27,6 +27,7 @@ export default{
 
 .general-background{
   background-color: black;
+  min-height: 100vh;
 }
 
 .white{
