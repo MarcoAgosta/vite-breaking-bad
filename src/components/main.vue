@@ -1,7 +1,7 @@
 <template>
 <div class="container m-auto b-white mt-3 p-5 mb-3">
     <div class="m-auto found"> 
-        <h5 class="p-3 white">Found tot characters</h5>
+        <h5 class="p-3 white">Found {{store.charactersList.length}} characters</h5>
     </div>
 
     <div class="row g-3">
